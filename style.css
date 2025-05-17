@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+.btn{
+    background-color: #4caf4f !important;
+    color: white !important;
+}
+.main-container{
+    background-color: #f5f7fa !important;
+}
+.span-head{
+    color: #4caf4f !important;
+}
+.icons{
+   display: flex !important;
+   justify-content: space-between !important;
+   gap: 10vh !important; 
+}
+h1, h2, h3, h4, h5, h6{
+    color: #4e4e4e !important;
+}
+.card-heading{
+    color: #4e4e4e !important;
+}
+.card{
+    box-shadow: 0px 10px 19px -1px rgba(170,160,160,0.75);;
+}
