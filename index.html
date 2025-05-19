@@ -7,15 +7,14 @@
     <title>Nexcent | Landing Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <!-- Navbar Start -->
-    <div class="d-flex justify-content-around gap-4">
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light ms-5 me-5">
+        <div class="container-fluid d-flex d-sm-flex text-center align-items-center justify-content-sm-center">
             <div class="text-center">
                 <a class="navbar-brand" href="#">
                     <img src="./Images/Logo.png" alt="Nexcent">
@@ -27,7 +26,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto mb-lg-0 text-center me-5">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -45,20 +44,22 @@
                     </li>
 
                 </ul>
-                <form class="form-inline ">
-                    <button class="btn my-2 my-sm-0" type="submit">Register Now
-                        <img src="./Images/Right.png" alt="">
-                    </button>
-                </form>
+                <div>
+                    <form class="form-inline ">
+                        <button class="btn my-2 my-sm-0" type="submit">Register Now
+                            <img src="./Images/Right.png" alt="">
+                        </button>
+                    </form>
+                </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <!-- Navbar End -->
 
     <!-- Hero Section Start -->
     <div class="main-container">
         <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 animate__animated animate__slideInLeft">
                 <div class="col-10 col-sm-8 col-lg-6">
                     <img src="./Images/Illustration.png" class="d-block mx-lg-auto img-fluid" alt="Illustration"
                         loading="lazy">
@@ -120,7 +121,7 @@
         </p>
     </div>
     <div class="d-flex justify-content-evenly">
-        <div class="row px-lg-5 container">
+        <div class="row px-lg-5 container gap-5">
             <div class="col d-flex justify-content-center">
                 <div class="card align-items-center" style="width: 18rem;">
                     <img src="./Images/member.png" class="card-img-top" alt="Membership Organisations"
@@ -259,109 +260,83 @@
         <footer class="text-center text-lg-start bg-body-tertiary text-muted">
             <section>
                 <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
                     <div class="row mt-3">
-                        <!-- Grid column -->
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
                             <h4 class="text-uppercase fw-bold mb-4">
-                                <img src="./Images/Logo.png" alt="Nexcent" style="width: 40px; height: 30px;">Nexcent
+                                <img src="./Images/footerLogo.png" alt="Nexcent">Nexcent
                             </h4>
                             <p>
-                            <div >
+                            <div>
                                 <p>© 2021 Copyright Landify UI Kit.</p>
                                 <p>All rights reserved</p>
 
                             </div>
                             </p>
                             <div>
-                                <a href="" class="me-4 text-reset text-decoration-none">
+                                <a href="#" class="me-4 text-reset text-decoration-none">
                                     <img src="./Images/insta.png" alt="">
                                 </a>
-                                <a href="" class="me-4 text-reset text-decoration-none">
+                                <a href="#" class="me-4 text-reset text-decoration-none">
                                     <img src="./Images/social2.png" alt="">
                                 </a>
-                                <a href="" class="me-4 text-reset text-decoration-none">
-                                    <i class="fab fa-instagram"></i>
+                                <a href="#" class="me-4 text-reset text-decoration-none">
+                                    <img src="./Images/twitter.png" alt="">
                                 </a>
-                                <a href="" class="me-4 text-reset text-decoration-none">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="" class="me-4 text-reset text-decoration-none">
-                                    <i class="fab fa-github"></i>
+                                <a href="#" class="me-4 text-reset text-decoration-none">
+                                    <img src="./Images/youtube.png" alt="">
                                 </a>
                             </div>
                         </div>
-                        <!-- Grid column -->
-
-
-                        <!-- Grid column -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Products
+                            <h6 class=" mb-4">
+                                Company
                             </h6>
                             <p>
-                                <a href="#!" class="text-reset">Angular</a>
+                                <a href="#!" class="text-reset text-decoration-none">About us</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">React</a>
+                                <a href="#!" class="text-reset text-decoration-none">Blog</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Vue</a>
+                                <a href="#!" class="text-reset text-decoration-none">Contact us</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Laravel</a>
+                                <a href="#!" class="text-reset text-decoration-none">Pricing</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset text-decoration-none">Testimonials</a>
                             </p>
                         </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Useful links
+                            <h6 class="mb-4">
+                                Support
                             </h6>
                             <p>
-                                <a href="#!" class="text-reset">Pricing</a>
+                                <a href="#" class="text-reset text-decoration-none">Help center</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Settings</a>
+                                <a href="#" class="text-reset text-decoration-none">Terms of service</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Orders</a>
+                                <a href="#" class="text-reset text-decoration-none">Legal</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Help</a>
+                                <a href="#" class="text-reset text-decoration-none">Privacy policy</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-reset text-decoration-none">Status</a>
                             </p>
                         </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                            <p>
-                                <i class="fas fa-envelope me-3"></i>
-                                info@example.com
-                            </p>
-                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+
+                            <h6 class="mb-4">Stay up tp date</h6>
+                            <input type="email" placeholder="Your email address">
+
                         </div>
-                        <!-- Grid column -->
                     </div>
-                    <!-- Grid row -->
                 </div>
             </section>
-            <!-- Section: Links  -->
 
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2021 Copyright:
-                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-            </div>
-            <!-- Copyright -->
         </footer>
     </div>
     <!-- footer End -->
