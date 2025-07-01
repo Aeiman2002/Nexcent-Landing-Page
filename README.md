@@ -13,7 +13,7 @@
 - Optimized Performance - Fast loading with minified assets
 - Cross-Browser Compatible - Works on all major browsers
 
-🔗 Live Demo: 
+🔗 Live Demo: https://aeiman2002.github.io/Nexcent-Landing-Page/
 
 
 🛠️ Technology Stack
